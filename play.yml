@@ -1,0 +1,23 @@
+---
+- name: install java and Jenkins
+  hosts: localhost
+  become: true
+  tasks:
+  - name: executing script
+    script: Java & Jenkins.sh
+    
+
+- name: install docker & K8
+  hosts: k-s
+  become: true
+  tasks:
+  - name: executing script
+    script: Docker & K8.sh
+    
+- name: install java & docker & K8
+  hosts: k-m 
+  become: true
+  tasks:
+  - name: executing script
+    script: Java,docker,K8.sh
+    
