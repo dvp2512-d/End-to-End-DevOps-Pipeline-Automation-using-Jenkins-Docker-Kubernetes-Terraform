@@ -132,21 +132,4 @@ Replace placeholders with your actual service names, image repositories, and env
 - Integrate logging (ELK/Fluentd) and metrics (Prometheus/Grafana) to monitor application health and resource use.
 - Add alerting for critical conditions and SLO/SLAs.
 
-## Contributing
 
-- Create issues or feature branches for changes.
-- Open pull requests against develop/main depending on your branching model.
-- Ensure pipelines and tests pass before merging.
-
-## Contact
-
-Maintainer: dvp2512-d  
-For questions or access to CI/CD credentials and cloud accounts, contact the project owner or your infrastructure administrator.
-
-## Skills / Technologies
-
-Jenkins · Docker · Kubernetes · Terraform · Git · AWS · Configuration Management
-
-## License
-
-Specify your license here (e.g., MIT). Update the LICENSE file accordingly.
